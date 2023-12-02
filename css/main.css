@@ -105,7 +105,7 @@ textarea {
 /* 3. ---Main Hero Image--- */
 
 #hero {
-  background: url(../img/hero-main.jpg) no-repeat;
+  background: url(../img/hm_hero_412.jpg) no-repeat;
   height: 200px;
 }
 
@@ -210,7 +210,7 @@ textarea {
 }
 
 #why-choose-us-hero-con {
-  background: url(../img/why-choose-us-hero.jpg) no-repeat;
+  background: url(../img/hm_couple_412.jpg) no-repeat;
   height: 195px;
 }
 
@@ -266,7 +266,7 @@ textarea {
 /* 6. ---About & FAQ--- */
 
 #about-hero-con {
-  background: url(../img/about-us-hero.jpg) no-repeat;
+  background: url(../img/hm_boat_412.jpg) no-repeat;
   height: 195px;
 }
 
@@ -338,7 +338,7 @@ textarea {
 /* 7. ---Contact--- */
 
 #contact-hero-con {
-  background: url(../img/contact-hero.jpg);
+  background: url(../img/hm_couple-mountain_412.jpg);
   height: 195px;
 }
 
