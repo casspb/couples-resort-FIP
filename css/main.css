@@ -246,11 +246,12 @@ textarea {
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #why-choose-us-bottom-nav ol {
   list-style-type: none;
-  margin: 0 0 0 20px;
+  margin: 0 20px;
   padding: 0;
 }
 
@@ -312,6 +313,14 @@ textarea {
   background: #e8e7e7;
   padding: 16px;
   font-size: 16px;
+}
+.faq-items img {
+  padding-right: 8px;
+}
+
+.arrows {
+  transform: rotate(90deg);
+  margin-bottom: -8px;
 }
 
 .faq-items ul {
