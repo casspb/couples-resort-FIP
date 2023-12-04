@@ -45,6 +45,10 @@ textarea {
 .cr-red {
   color: #9a2018;
 }
+.hr-red {
+  background-color: #cf6666;
+  height: 4px;
+}
 
 /* 2. ---Main Nav--- */
 
@@ -132,6 +136,90 @@ textarea {
 
 #hero-heading-box {
   align-self: end;
+}
+/*dining hero*/
+#dining-hero {
+  background: url(../img/dining-412.jpg) no-repeat;
+  height: 197px;
+}
+
+#dining-hero .hero-img-h3 {
+  margin-top: 160px;
+}
+
+#course-meal,
+#vegan,
+#wine {
+  position: relative;
+  height: 136px;
+  width: 349px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #3b3b3b;
+}
+
+#course-meal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/dining-5course.jpg) no-repeat;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+#vegan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/dining-vegan.jpg) no-repeat;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+#wine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/dining-wine.jpg) no-repeat;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+#wine h3,
+#vegan h3,
+#course-meal h3 {
+  position: relative;
+}
+
+#vegan h3,
+#course-meal h3 {
+  padding-top: 20px;
+}
+
+#wine h3 span {
+  font-size: 20px;
+}
+
+#dining-summary p {
+  padding: 10px 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+#dining-summary p span {
+  color: #cf6666;
+  cursor: pointer;
 }
 
 .hero-img-h2,
@@ -416,7 +504,6 @@ textarea {
   background-repeat: no-repeat;
   color: #fff;
   font-size: 12px;
-  margin-top: 40px;
   padding-bottom: 80px;
 }
 
@@ -438,4 +525,79 @@ textarea {
   margin-bottom: 20px;
   line-height: 18px;
   font-size: 11px;
+}
+
+/*   dining menu   */
+
+#menu {
+  background-color: #f4f4f4;
+}
+
+#menu h2 {
+  font-size: 30px;
+}
+#menu h2 span {
+  font-size: 20px;
+  color: #cf6666;
+}
+
+#drink-nav label h3 {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#drink-nav input,
+.menu-text {
+  display: none;
+}
+
+/*   ~ sibling selector   */
+
+#drink-nav input:checked ~ .menu-text {
+  display: block;
+}
+
+#drink-nav input:checked ~ label img {
+  transform: rotate(90deg);
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+.menu-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.menu-header {
+  color: #cf6666;
+  font-size: 14px;
+}
+
+.menu-text p {
+  font-size: 12px;
+}
+
+#chef-ronnie {
+  background-color: #f4f4f4;
+  padding-bottom: 20px;
+}
+
+#chef-ronnie h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+#chef-ronnie p {
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+#chef-ronnie p span {
+  color: #cf6666;
+  font-size: 20px;
+}
+
+#chef-ronnie img {
+  margin-top: 10px;
 }
