@@ -543,7 +543,10 @@ textarea {
 
 #drink-nav label h3,
 #lunch-nav label h3,
-#desserts-nav label h3 {
+#desserts-nav label h3,
+#entrees-nav label h3,
+#features-nav label h3,
+#starters-nav label h3 {
   cursor: pointer;
   transition: all 0.5s ease;
 }
@@ -567,6 +570,21 @@ textarea {
   display: none;
 }
 
+#entrees-nav input,
+.lunch-text {
+  display: none;
+}
+
+#features-nav input,
+.lunch-text {
+  display: none;
+}
+
+#starters-nav input,
+.lunch-text {
+  display: none;
+}
+
 /*   ~ sibling selector   */
 
 #drink-nav input:checked ~ .drink-text {
@@ -581,6 +599,18 @@ textarea {
 }
 
 #desserts-nav input:checked ~ .lunch-text {
+  display: block;
+}
+
+#entrees-nav input:checked ~ .lunch-text {
+  display: block;
+}
+
+#features-nav input:checked ~ .lunch-text {
+  display: block;
+}
+
+#starters-nav input:checked ~ .lunch-text {
   display: block;
 }
 
@@ -603,6 +633,24 @@ textarea {
 }
 
 #desserts-nav input:checked ~ label img {
+  transform: rotate(90deg);
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+#entrees-nav input:checked ~ label img {
+  transform: rotate(90deg);
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+#features-nav input:checked ~ label img {
+  transform: rotate(90deg);
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+#starters-nav input:checked ~ label img {
   transform: rotate(90deg);
   margin-bottom: -10px;
   margin-right: 5px;
