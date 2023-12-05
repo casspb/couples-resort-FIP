@@ -541,19 +541,46 @@ textarea {
   color: #cf6666;
 }
 
-#drink-nav label h3 {
+#drink-nav label h3,
+#lunch-nav label h3,
+#desserts-nav label h3 {
   cursor: pointer;
   transition: all 0.5s ease;
 }
 
 #drink-nav input,
-.menu-text {
+.drink-text {
+  display: none;
+}
+
+#lunch-nav input,
+.lunch-text {
+  display: none;
+}
+#breakfast-nav input,
+.lunch-text {
+  display: none;
+}
+
+#desserts-nav input,
+.lunch-text {
   display: none;
 }
 
 /*   ~ sibling selector   */
 
-#drink-nav input:checked ~ .menu-text {
+#drink-nav input:checked ~ .drink-text {
+  display: block;
+}
+
+#lunch-nav input:checked ~ .lunch-text {
+  display: block;
+}
+#breakfast-nav input:checked ~ .lunch-text {
+  display: block;
+}
+
+#desserts-nav input:checked ~ .lunch-text {
   display: block;
 }
 
@@ -563,10 +590,40 @@ textarea {
   margin-right: 5px;
 }
 
-.menu-text {
+#lunch-nav input:checked ~ label img {
+  transform: rotate(90deg);
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+#breakfast-nav input:checked ~ label img {
+  transform: rotate(90deg);
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+#desserts-nav input:checked ~ label img {
+  transform: rotate(90deg);
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+.drink-text {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.lunch-text {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.extra {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 10px;
 }
 
 .menu-header {
@@ -574,8 +631,14 @@ textarea {
   font-size: 14px;
 }
 
-.menu-text p {
+.lunch-text span {
+  color: #cf6666;
+}
+
+.drink-text p,
+.lunch-text p {
   font-size: 12px;
+  padding-bottom: 10px;
 }
 
 #chef-ronnie {
