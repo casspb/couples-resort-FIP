@@ -567,32 +567,14 @@ textarea {
 }
 
 #lunch-nav input,
-.lunch-text {
-  display: none;
-}
 #breakfast-nav input,
-.lunch-text {
-  display: none;
-}
-
 #desserts-nav input,
-.lunch-text {
-  display: none;
-}
-
 #entrees-nav input,
-.lunch-text {
-  display: none;
-}
-
 #features-nav input,
-.lunch-text {
-  display: none;
-}
-
 #starters-nav input,
 .lunch-text {
   display: none;
+  line-height: 20px;
 }
 
 /*   ~ sibling selector   */
@@ -676,6 +658,7 @@ textarea {
   text-align: left;
   margin-top: 20px;
   margin-bottom: 30px;
+  font-size: 14px;
 }
 
 .extra {
@@ -686,7 +669,7 @@ textarea {
 
 .menu-header {
   color: #cf6666;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .lunch-text span {
