@@ -4,17 +4,7 @@ Couples Resort Responsive Build
  */
 
 /* 
-    CSS Guide 
 
-    1.  General Styles
-    2.  Main Nav
-    3.  Main Hero Image
-    4.  Main Hero Image Contact
-    5.  Why Couples Resort
-    6.  About & FAQ
-    7.  Contact Form
-    8.  Footer 
- */
 
 /* 1. ---General Styles--- */
 
@@ -137,6 +127,7 @@ textarea {
 #hero-heading-box {
   align-self: end;
 }
+
 /*dining hero*/
 #dining-hero {
   background: url(../img/dining-412.jpg) no-repeat;
@@ -228,6 +219,8 @@ textarea {
   color: #cf6666;
   cursor: pointer;
 }
+
+/*hero img text and text boxes*/
 
 .hero-img-h2,
 .hero-img-h3 {
@@ -534,7 +527,7 @@ textarea {
   font-size: 11px;
 }
 
-/*   dining menu   */
+/*   dining menu  and activity menu drop downs */
 
 #menu,
 #activites {
@@ -681,6 +674,8 @@ textarea {
   font-size: 12px;
   padding-bottom: 10px;
 }
+
+/*Chef ronnie discription section*/
 
 #chef-ronnie {
   background-color: #f4f4f4;
