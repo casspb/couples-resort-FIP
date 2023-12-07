@@ -143,8 +143,15 @@ textarea {
   height: 197px;
 }
 
-#dining-hero .hero-img-h3 {
+#dining-hero .hero-img-h3,
+#activites-hero .hero-img-h3 {
   margin-top: 160px;
+}
+
+/*Activites hero*/
+#activites-hero {
+  background: url(../img/park-activites-412.jpg);
+  height: 197px;
 }
 
 #course-meal,
@@ -529,14 +536,17 @@ textarea {
 
 /*   dining menu   */
 
-#menu {
+#menu,
+#activites {
   background-color: #f4f4f4;
 }
 
-#menu h2 {
+#menu h2,
+#activites h2 {
   font-size: 30px;
 }
-#menu h2 span {
+#menu h2 span,
+#activites h2 span {
   font-size: 20px;
   color: #cf6666;
 }
